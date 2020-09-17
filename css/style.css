@@ -1,0 +1,303 @@
+body {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    font: 1em Courier;
+}
+
+#left-panel {
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    background-color:#000;
+}
+
+/* USE TABLE/TABLE-CELL FOR NAME-BOX */
+
+#name-box {
+    position: absolute;
+    display: table;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 8%;
+    min-width: 35%;
+    background-color: #0f0;
+}
+
+#name-cont{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#identification {
+    font-size:calc(0.5em + 0.5vw);
+    padding: 0.3em 0.2em 0.05em 0.2em;
+}
+
+#name {
+    font-size:calc(1.5em + 0.75vw);
+    padding: 0.05em 0.2em 0.05em 0.2em;
+}
+
+#left-panel-top {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#headshot img{
+    border-radius: 100%;
+    min-width: 175px;
+    max-width: 230px;
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#right-panel {
+    position: absolute;
+    height: 70%;
+    width: 80%;
+    left: 20%;
+    background-color: #161616;
+}
+
+#window-top {
+    position: absolute;
+    display: table;
+    height: 3%;
+    width: 90%;
+    left: 5%;
+    top: 3%;
+    background-color: #0f0;
+    
+}
+
+#close-btn {
+    position: absolute;
+    left: 97.5%;
+    top: 50%;
+    transform: translate(0, -50%);
+    background-color: #4cff55;
+    width: 2%;
+    height: 70%;
+    border: 1px solid #378e3b;
+    box-sizing: border-box;
+    border-radius: 12%;
+}
+
+#close-btn1 {
+    position: absolute;
+    left: 2%;
+    top: 50%;
+    transform: translate(0, -50%);
+    background-color: #4cff55;
+    width: 1.25%;
+    height: 70%;
+    border: 1px solid #378e3b;
+    box-sizing: border-box;
+    border-radius: 12%;
+}
+
+#close-btn2 {
+    position: absolute;
+    left: 0.5%;
+    top: 50%;
+    transform: translate(0, -50%);
+    background-color: #4cff55;
+    width: 1.25%;
+    height: 70%;
+    border: 1px solid #378e3b;
+    box-sizing: border-box;
+    border-radius: 12%;
+}
+
+#window-name {
+    display: table-cell;
+    font: 1em serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#window {
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    left: 5%;
+    top: 5%;
+    background-color: #000;
+    border: solid #0f0;
+    border-width: 1%;
+    border-top: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color: #0f0;
+}
+
+#window, #about-me {
+    overflow: auto;
+}
+
+#about-me {
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    left: 5%;
+    top: 3%;
+    font-size:calc(0.2em + 0.75vw);
+}
+
+#nav {
+    position: absolute;
+    display: table;
+    height: 30%;
+    width: 80%;
+    top: 70%;
+    left: 20%;
+    background-color: #161616;
+}
+
+#console {
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    left: 5%;
+    background-color: #000;
+    border: solid #000;
+    border-width: 1%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color: white;
+    font-size:calc(0.2em + 0.75vw);
+}
+
+#console-input {
+    position: absolute;
+    border: none;
+    outline: none;
+    left: 7%;
+    top: 5%;
+    background-color: black;
+    font: 1em Courier;
+    font-size:calc(0.2em + 0.75vw);
+    color: white;
+    width: 83%;
+}
+
+#pointer {
+    position: absolute;
+    left: 5%;
+    top: 6%;
+    color: white;
+}
+
+#footer {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 95%;
+}
+
+#madeby {
+    font-size:calc(0.2em + 0.75vw);
+    color: #0f0;
+    display: inline-block;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 1%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: black; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #00a300; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #008400; 
+}
+
+@media(max-width: 940px) {
+    #left-panel {
+        height: 10%;
+        width: 100%;
+        background-color: #161616;
+    }
+
+    #name-box {
+        max-width: 35%;
+    }
+
+    #name-cont{
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #name {
+        font-size: 1.5em;
+        padding: 0 0.2em 0 0.2em;
+    }
+
+    /* #left-panel-top {
+        left: 0;
+    } */
+
+    #headshot img {
+        display: none;
+    }
+
+    #right-panel {
+        height: 60%;
+        width: 100%;
+        left: 0;
+        top: 10%;
+    }
+
+    #nav {
+        left: 0;
+        top: 70%;
+        width: 100%;
+    }
+    body {
+        background: #161616;
+    }
+}
+
+@media(max-width: 1365px) {
+    #about-me, #console, #console-input{
+        font-size: 1.1em;
+    }
+    body {
+        background: #161616;
+    }
+}
+
+@media(max-width: 768px) {
+    #console-input {
+        left: 8%;
+        width: 83%;
+    }
+    
+    #pointer {
+        left: 5%;
+    }
+    
+    body {
+        background: #161616;
+    }
+}
