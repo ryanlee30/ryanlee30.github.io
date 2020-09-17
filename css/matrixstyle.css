@@ -1,0 +1,38 @@
+/*basic reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/*adding a black bg to the body to make things clearer*/
+body {
+  background-color:black;
+  border:0;
+  padding:0;
+  margin:0;
+}
+
+canvas {
+  display: block;
+  height:100%;
+  width:100%;
+}
+
+#mainbtn {
+  position: absolute;
+  left: 0;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+}
+
+#btn {
+  background-color: rgba(0,0,0,0);
+  border:0;
+  color:#fff;
+  font: 40px Courier;
+  text-decoration:none;
+}
+
+#btn:hover{
+  color:#0F0;
+}
