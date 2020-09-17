@@ -21,10 +21,10 @@ function checkInput(e) {
             window.alert('Valid Commands:\nresume - View my Resume\ngithub - Open my GitHub page\nlinkedin - Open my LinkedIn page');
             break;
             case 'github':
-            window.open('https://github.com/ryan1ee/');
+            window.open('https://github.com/ryanlee30/');
             break;
             case 'Github':
-            window.open('https://github.com/ryan1ee/');
+            window.open('https://github.com/ryanlee30/');
             break;
             case 'resume':
             window.open('/files/resume.pdf', 'pdf');
@@ -33,10 +33,10 @@ function checkInput(e) {
             window.open('/files/resume.pdf', 'pdf');
             break;
             case 'linkedin':
-            window.open('https://www.linkedin.com/in/ryan1ee/');
+            window.open('https://www.linkedin.com/in/ryanlee30/');
             break;
             case 'Linkedin':
-            window.open('https://www.linkedin.com/in/ryan1ee/');
+            window.open('https://www.linkedin.com/in/ryanlee30/');
             break;
             default:
             window.alert('Wrong command!\nType "help" for valid commands');
