@@ -18,7 +18,7 @@ body {
 #name-box {
     position: absolute;
     display: table;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, 0);
     height: 8%;
@@ -54,7 +54,7 @@ body {
     max-width: 230px;
     width: 50%;
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, 0);
 }
