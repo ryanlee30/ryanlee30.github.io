@@ -27,10 +27,10 @@ function checkInput(e) {
             window.open('https://github.com/ryanlee30/');
             break;
             case 'resume':
-            window.open('/files/resume.pdf', 'pdf');
+            window.open('/files/Co_op_Resume_2020.pdf', 'pdf');
             break;
             case 'Resume':
-            window.open('/files/resume.pdf', 'pdf');
+            window.open('/files/Co_op_Resume_2020.pdf', 'pdf');
             break;
             case 'linkedin':
             window.open('https://www.linkedin.com/in/ryanlee30/');
