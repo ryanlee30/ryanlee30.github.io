@@ -1,4 +1,5 @@
 # ryan1ee.com
 My Personal Website
 
-Excuse my spagehtti
+Excuse my spaghetti
+- Revisions coming soon
