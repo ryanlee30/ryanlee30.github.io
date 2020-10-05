@@ -1,5 +1,4 @@
-# ryan1ee.com
-My Personal Website
+# ryanlee30.com
 
 Excuse my spaghetti
 - Revisions coming soon
